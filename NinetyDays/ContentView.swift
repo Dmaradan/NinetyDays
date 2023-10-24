@@ -29,7 +29,7 @@ struct ContentView: View {
                 }
             }
             .sheet(isPresented: $isSheetPresenting) {
-                Text("Look at my sheet")
+                SheetView(habitList: habitList)
             }
         }
         
