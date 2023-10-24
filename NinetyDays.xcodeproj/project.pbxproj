@@ -14,6 +14,7 @@
 		47F9CE432AE7EE7800115211 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F9CE422AE7EE7800115211 /* Habit.swift */; };
 		47F9CE452AE7EF1500115211 /* HabitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F9CE442AE7EF1400115211 /* HabitList.swift */; };
 		47F9CE482AE83FF500115211 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F9CE472AE83FF500115211 /* SheetView.swift */; };
+		47F9CE4A2AE8451E00115211 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F9CE492AE8451E00115211 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		47F9CE422AE7EE7800115211 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		47F9CE442AE7EF1400115211 /* HabitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitList.swift; sourceTree = "<group>"; };
 		47F9CE472AE83FF500115211 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		47F9CE492AE8451E00115211 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				47F9CE342AE7EDF700115211 /* NinetyDaysApp.swift */,
 				47F9CE362AE7EDF700115211 /* ContentView.swift */,
+				47F9CE492AE8451E00115211 /* DetailView.swift */,
 				47F9CE472AE83FF500115211 /* SheetView.swift */,
 				47F9CE462AE83FE400115211 /* Model */,
 				47F9CE382AE7EDF800115211 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47F9CE432AE7EE7800115211 /* Habit.swift in Sources */,
+				47F9CE4A2AE8451E00115211 /* DetailView.swift in Sources */,
 				47F9CE372AE7EDF700115211 /* ContentView.swift in Sources */,
 				47F9CE482AE83FF500115211 /* SheetView.swift in Sources */,
 				47F9CE452AE7EF1500115211 /* HabitList.swift in Sources */,

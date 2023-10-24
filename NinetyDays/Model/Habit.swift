@@ -11,4 +11,6 @@ struct Habit: Identifiable {
     let id = UUID()
     let title: String
     let description: String
+    
+    var completionCount = 0
 }

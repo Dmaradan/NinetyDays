@@ -15,10 +15,7 @@ struct ContentView: View {
         NavigationStack {
             List(habitList.habits) { habit in
                 VStack(alignment: .leading) {
-                    Text(habit.title)
-                        .font(.headline)
-                    Text(habit.description)
-                        .font(.callout)
+                    NavigationLink(habit.title, destination: DetailView(habitList: habitList, habit: habit)) 
                 }
             }
             .toolbar {
